@@ -1,0 +1,17 @@
+server:
+  port: 8989
+
+spring:
+  application:
+   name: standard-app
+
+my:
+  app:
+    db:
+      name=testInternalYML:
+app:
+  name: Standard YAML App
+  version: 3.0
+  feature:
+    enabled: true
+  timeout: 8000

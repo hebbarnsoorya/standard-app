@@ -1,0 +1,8 @@
+server:
+  port: 9999
+app:
+  env: production
+  service:
+    enabled: true
+  timeout:
+   ms: 5000
