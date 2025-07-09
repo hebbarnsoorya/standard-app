@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JAR_NAME="my-app.jar"
+JAR_NAME="std-app.jar"
 EXTRA_CONFIG_FILE="standard-app.properties"
 
 # Check if jar exists
