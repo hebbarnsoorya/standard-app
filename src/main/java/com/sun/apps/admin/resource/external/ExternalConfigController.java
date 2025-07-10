@@ -24,8 +24,11 @@ public class ExternalConfigController {
     }
 
     @GetMapping("/live")
-    public LiveExternalProps getLiveConfig() {
-        return liveProps;
+    public String getLiveConfig() {
+           return "" +
+                "" +liveProps.getMode() +" : "+
+                   liveProps.getStatus()+": "+
+                "";
     }
 }
 
