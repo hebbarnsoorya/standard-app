@@ -1,4 +1,6 @@
 @echo off
+SETLOCAL ENABLEDELAYEDEXPANSION
+
 SET JAR_NAME=std-app.jar
 
 REM External config files
@@ -13,33 +15,31 @@ IF NOT EXIST %JAR_NAME% (
     exit /b
 )
 
-REM Build config location string
-SET ADDITIONAL_CONFIG=
+REM Build spring.config.import string
+SET CONFIG_IMPORTS=
 
 IF EXIST %EXT_CONFIG_1% (
     echo Found: %EXT_CONFIG_1%
-    SET ADDITIONAL_CONFIG=%ADDITIONAL_CONFIG%,file:./%EXT_CONFIG_1%
+    SET CONFIG_IMPORTS=!CONFIG_IMPORTS!,optional:file:./%EXT_CONFIG_1%
 )
 
 IF EXIST %EXT_CONFIG_2% (
     echo Found: %EXT_CONFIG_2%
-    SET ADDITIONAL_CONFIG=%ADDITIONAL_CONFIG%,file:./%EXT_CONFIG_2%
+    SET CONFIG_IMPORTS=!CONFIG_IMPORTS!,optional:file:./%EXT_CONFIG_2%
 )
 
 IF EXIST %EXT_CONFIG_3% (
     echo Found: %EXT_CONFIG_3%
-    SET ADDITIONAL_CONFIG=%ADDITIONAL_CONFIG%,file:./%EXT_CONFIG_3%
+    SET CONFIG_IMPORTS=!CONFIG_IMPORTS!,optional:file:./%EXT_CONFIG_3%
 )
 
-REM Remove leading comma if needed
-IF NOT "%ADDITIONAL_CONFIG%"=="" (
-    SET "ADDITIONAL_CONFIG=%ADDITIONAL_CONFIG:~1%"
-    SET "CONFIG_PARAM=--spring.config.additional-location=%ADDITIONAL_CONFIG%"
-) ELSE (
-    SET "CONFIG_PARAM="
+REM Remove leading comma
+IF NOT "!CONFIG_IMPORTS!"=="" (
+    SET "CONFIG_IMPORTS=!CONFIG_IMPORTS:~1!"
 )
 
-echo Starting %JAR_NAME% with external config...
-java -jar %JAR_NAME% %CONFIG_PARAM%
+REM Run the app
+echo Starting %JAR_NAME% with config import: !CONFIG_IMPORTS!
+java -Dspring.config.import=!CONFIG_IMPORTS! -jar %JAR_NAME%
 
 pause
