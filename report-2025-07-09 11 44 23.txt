@@ -1,0 +1,135 @@
+ ******** ADDED ROWS ********
+ * P1003, AbbVie US LLC, 72903, Immunogen, 02/01/2025, 02/01/2025, Not Eligible
+ * P1908, Omnivium Pharmaceuticals LLC, 81665, Omnivium Pharmaceuticals LLC, 03/01/2025, 03/01/2025, Not Eligible
+ * P1884, Waylis Therapeutics  LLC, 80725, Waylis Therapeutics LLC, 09/01/2022, 03/01/2025, Not Eligible
+ * P1774, USWM, LLC, 71127, Laboratoire Francais du Fractionnement et des Biotechnologies S.A. (LFB S.A.), 02/01/2025, 02/01/2025, Not Eligible
+ * P1730, Pharmacosmos Therapeutics, 73594, Pharmacosmos Therapeutics Inc, 02/01/2025, 02/01/2025, Not Eligible
+ * P1887, Harrow Eye, LLC, 65086, Santen Inc., 01/01/2011, 03/01/2025, Not Eligible
+ * P1887, Harrow Eye, LLC, 71776, Eyevance Pharmaceuticals, LLC, 04/01/2019, 03/01/2025, Not Eligible
+ * P1766, Aditus Partners, LLC., 84612, OPTUM HEALTH SOLUTIONS (IRELAND) LIMITED, 02/01/2025, 02/01/2025, Not Eligible
+ * P1024, sanofi-aventis U.S. LLC, 71104, Bioverativ Therapeutics Inc., 02/01/2025, 02/01/2025, Not Eligible
+ * P1287, Amneal Pharmaceuticals, LLC, 60219, Amneal Pharmaceuticals, 02/01/2025, 02/01/2025, Specified Manufacturer
+ * P1060, Prasco, LLC, 35573, Burel Pharmaceuticals, 02/01/2025, 02/01/2025, Specified Manufacturer
+ * P1729, Soleno Therapeutics, Inc., 83860, Soleno Therapeutics, Inc., 02/01/2025, 02/01/2025, Not Eligible
+ * P1817, Federal Compliance Solutions LLC, 73648, Mesoblast, Inc., 03/01/2025, 03/01/2025, Not Eligible
+ * P1359, Vifor Pharma, Inc., 59353, Vifor (International) Inc., 03/01/2025, 03/01/2025, Not Eligible
+ 
+
+
+ ******** REMOVED ROWS ********
+ * P1048, Bausch Health US, LLC, 59987, Dow Pharmaceutical Sciences, 01/01/2011, 01/01/2011, Specified Manufacturer
+ * P1048, Bausch Health US, LLC, 67425, ISTA Pharmaceuticals, Inc., 01/01/2011, 03/01/2014, Specified Manufacturer
+ * P1048, Bausch Health US, LLC, 49808, Metacon Labs, 12/01/2015, 12/01/2015, Specified Manufacturer
+ * P1048, Bausch Health US, LLC, 66530, Spear Dermatology Products, 08/01/2014, 08/01/2014, Specified Manufacturer
+ * P1048, Bausch Health US, LLC, 62592, Ucyclyd Pharma Inc., 01/01/2011, 04/01/2013, Specified Manufacturer
+ * P1048, Bausch Health US, LLC, 14290, Triax Pharmaceuticals, LLC, 01/01/2011, 10/01/2014, Specified Manufacturer
+ * P1048, Bausch Health US, LLC, 52725, Shore Therapeutics, Inc, 01/01/2012, 06/01/2015, Specified Manufacturer
+ 
+
+
+ ******** UPDATED ROWS ********
+OLD Data: P1351, IntegriChain, Inc., 80777, Moderna TX, Inc, 05/01/2024, 05/01/2024, Not Eligible
+New Data: P1876, Moderna US, Inc., 80777, Moderna TX, Inc, 05/01/2024, 02/01/2025, Not Eligible
+
+
+OLD Data: P1745, Dermavant Sciences, Inc., 81672, Dermavant Sciences, Inc., 09/01/2022, 09/01/2022, Not Eligible
+New Data: P1739, Organon LLC, 81672, Dermavant Sciences, Inc., 09/01/2022, 02/01/2025, Specified Manufacturer
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 00462, PharmaDerm a Div of Nycomed US Inc., 01/01/2011, 11/01/2012, Not Eligible
+New Data: P1877, Sandoz, Inc, 00462, PharmaDerm a Div of Nycomed US Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1058, CSL Behring L.L.C, 69911, CSL Behring Recombinant Facility, AG, 04/01/2016, 04/01/2016, Specified Manufacturer
+New Data: P1058, CSL Behring L.L.C, 69911, CSL Behring Recombinant Facility, AG, 04/01/2016, 04/01/2016, Not Eligible
+
+
+OLD Data: P1107, Endo Pharmaceuticals Inc., 66887, Auxilium Pharmaceuticals Inc., 01/01/2011, 08/01/2021, Specified Manufacturer
+New Data: P1134, Endo USA, Inc., 66887, Auxilium Pharmaceuticals Inc., 01/01/2011, 03/01/2025, Specified Manufacturer
+
+
+OLD Data: P1107, Endo Pharmaceuticals Inc., 67979, Endo Pharmaceuticals Solutions Inc., 01/01/2011, 08/01/2021, Specified Manufacturer
+New Data: P1134, Endo USA, Inc., 67979, Endo Pharmaceuticals Solutions Inc., 01/01/2011, 03/01/2025, Specified Manufacturer
+
+
+OLD Data: P1107, Endo Pharmaceuticals Inc., 52244, Actient Pharmaceuticals, LLC, 01/01/2011, 08/01/2021, Specified Manufacturer
+New Data: P1134, Endo USA, Inc., 52244, Actient Pharmaceuticals, LLC, 01/01/2011, 03/01/2025, Specified Manufacturer
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 66685, LEK Pharmaceuticals, Inc., 01/01/2011, 07/01/2011, Not Eligible
+New Data: P1877, Sandoz, Inc, 66685, LEK Pharmaceuticals, Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 00168, E Fougera and Co, a Division of Nycomed  Us Inc., 01/01/2011, 11/01/2012, Not Eligible
+New Data: P1877, Sandoz, Inc, 00168, E Fougera and Co, a Division of Nycomed  Us Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 00185, Eon Labs, Inc., 01/01/2011, 07/01/2011, Not Eligible
+New Data: P1877, Sandoz, Inc, 00185, Eon Labs, Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 61314, Falcon Pharmaceuticals, Ltd., 01/01/2011, 07/01/2011, Not Eligible
+New Data: P1877, Sandoz, Inc, 61314, Falcon Pharmaceuticals, Ltd., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1284, Aurobindo Pharma USA, Inc, 20536, Talon Therapeutics, 03/01/2016, 02/01/2022, Specified Manufacturer
+New Data: P1720, Acrotechbiopharma LLC, 20536, Talon Therapeutics, 03/01/2016, 03/01/2025, Specified Manufacturer
+
+
+OLD Data: P1107, Endo Pharmaceuticals Inc., 63481, Endo Pharmaceuticals Inc, 01/01/2011, 01/01/2011, Specified Manufacturer
+New Data: P1134, Endo USA, Inc., 63481, Endo Pharmaceuticals Inc, 01/01/2011, 03/01/2025, Specified Manufacturer
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 66758, Ebewe Parental Pharmaceuticals, Inc., 01/01/2011, 07/01/2011, Not Eligible
+New Data: P1877, Sandoz, Inc, 66758, Ebewe Parental Pharmaceuticals, Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1628, Activus Group, LLC, 81927, Shorla Oncology, Inc., 05/01/2024, 01/01/2025, Not Eligible
+New Data: P1916, Shorla Oncology Inc., 81927, Shorla Oncology, Inc., 05/01/2024, 01/01/2025, Not Eligible
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 10337, PharmaDerm a Div of Nycomed US Inc., 01/01/2011, 11/01/2012, Not Eligible
+New Data: P1877, Sandoz, Inc, 10337, PharmaDerm a Div of Nycomed US Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1483, Aprecia Pharmaceuticals Company, 43485, Aprecia Pharmaceuticals Company, 03/01/2016, 01/01/2017, Specified Small Manufacturer
+New Data: P1483, Aprecia Pharmaceuticals Company, 43485, Aprecia Pharmaceuticals Company, 03/01/2016, 01/01/2017, Specified Manufacturer
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 00781, Sandoz, Inc., 01/01/2011, 07/01/2011, Not Eligible
+New Data: P1877, Sandoz, Inc, 00781, Sandoz, Inc., 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 00281, Savage Laboratories a Division of Nycomed US Inc, 01/01/2011, 11/01/2012, Not Eligible
+New Data: P1877, Sandoz, Inc, 00281, Savage Laboratories a Division of Nycomed US Inc, 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1759, G1 Therapeutics Inc., 73462, G1 Therapeutics, Inc., 01/01/2022, 01/01/2022, Not Eligible
+New Data: P1730, Pharmacosmos Therapeutics, 73462, G1 Therapeutics, Inc., 01/01/2022, 02/01/2025, Not Eligible
+
+
+OLD Data: P1008, Novartis Pharmaceuticals Corporation, 00482, Kenwood Therapeutics Div Bradley Pharmaceuticals Inc, 01/01/2011, 11/01/2012, Not Eligible
+New Data: P1877, Sandoz, Inc, 00482, Kenwood Therapeutics Div Bradley Pharmaceuticals Inc, 01/01/2011, 02/01/2025, Not Eligible
+
+
+OLD Data: P1351, IntegriChain, Inc., 82576, Madrigal Pharmaceuticals, Inc., 12/01/2023, 12/01/2023, Not Eligible
+New Data: P1880, Madrigal Pharmaceuticals, Inc., 82576, Madrigal Pharmaceuticals, Inc., 12/01/2023, 02/01/2025, Not Eligible
+
+
+***
+ ******** Manual Verification Recommended ROWS IN First File ********
+EMPTY_-1577335749 >> P1048|  Bausch Health US, LLC|  QLT,  Ophthalmics, Inc.|  01/01/2011|  03/01/2013|  Specified Manufacturer
+EMPTY_2043478060 >> P1048|  Bausch Health US, LLC|  QLT,  Ophthalmics, Inc.|  01/01/2011|  03/01/2013|  Specified Manufacturer
+EMPTY_1127583795 >> P1048|  Bausch Health US, LLC|  QLT,  Ophthalmics, Inc.|  01/01/2011|  03/01/2013|  Specified Manufacturer
+EMPTY_1065794421 >> P1048|  Bausch Health US, LLC|  QLT,  Ophthalmics, Inc.|  01/01/2011|  03/01/2013|  Specified Manufacturer
+EMPTY_-632686478 >> P1048|  Bausch Health US, LLC|  QLT,  Ophthalmics, Inc.|  01/01/2011|  03/01/2013|  Specified Manufacturer
+EMPTY_-1013736152 >> P1048|  Bausch Health US, LLC|  QLT,  Ophthalmics, Inc.|  01/01/2011|  03/01/2013|  Specified Manufacturer
+***
+ ******** Manual Verification Recommended  ROWS IN Second File ********
+EMPTY_-1686488230 >> P1717|  Archis Pharma|  Vgyaan Pharmaceuticals|  02/01/2025|  02/01/2025|  Not Eligible
+EMPTY_2071352229 >> P1717|  Archis Pharma|  Vgyaan Pharmaceuticals|  02/01/2025|  02/01/2025|  Not Eligible
+EMPTY_103739291 >> P1717|  Archis Pharma|  Vgyaan Pharmaceuticals|  02/01/2025|  02/01/2025|  Not Eligible
+EMPTY_-987764493 >> P1717|  Archis Pharma|  Vgyaan Pharmaceuticals|  02/01/2025|  02/01/2025|  Not Eligible
+EMPTY_1872170339 >> P1717|  Archis Pharma|  Vgyaan Pharmaceuticals|  02/01/2025|  02/01/2025|  Not Eligible
+EMPTY_1778530287 >> P1717|  Archis Pharma|  Vgyaan Pharmaceuticals|  02/01/2025|  02/01/2025|  Not Eligible
+***
