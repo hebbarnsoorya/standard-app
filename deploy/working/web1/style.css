@@ -1,0 +1,92 @@
+/* Custom CSS for Rich Visual UI */
+
+:root {
+    /* Brighter, richer teal color scheme */
+    --rich-teal: #00bcd4; /* Brighter Cyan/Teal base */
+    --rich-teal-dark: #0097a7; /* Darker shade for gradient start */
+    --accent-gold: #ffc107; /* Bright Gold for contrast (Bootstrap warning color) */
+    --link-hover-color: #ff9800; /* Brighter Orange for links */
+}
+
+body {
+    background-color: #f4f7f6; /* Slightly warmer background for richness */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* 1. Gradient Blue-Green Background for Header and Footer */
+.bg-blue-green {
+    /* Gradient from a darker teal to a lighter teal */
+    background: linear-gradient(135deg, var(--rich-teal-dark) 0%, var(--rich-teal) 100%) !important;
+}
+
+/* Enhancing the Navigation Links */
+.navbar-nav .nav-link {
+    color: white !important; /* Ensure links are white on the new background */
+    font-weight: 700; /* Bolder font */
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 10px 15px !important;
+    border-bottom: 4px solid transparent; /* Slightly thicker border */
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--accent-gold) !important; /* Rich Gold contrasting color */
+    border-bottom-color: var(--accent-gold);
+}
+
+/* Main Content Section Styling for smooth fading and lift effect */
+.page-content {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Carousel/Image Slider Styling */
+.carousel-item {
+    max-height: 480px; /* Slightly taller slider */
+}
+
+.carousel-img {
+    height: 480px;
+    object-fit: cover;
+}
+
+/* Richer Shadowing for Cards/Content */
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2) !important; /* Slightly stronger shadow */
+}
+
+/* Content Card Enhancement */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px !important;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Footer Social Icons Hover Effect */
+.social-link:hover {
+    color: var(--link-hover-color) !important; /* Brighter Orange hover */
+    transition: color 0.3s ease;
+}
